@@ -1,0 +1,40 @@
+body{
+background:url("../imagens/admin.jpg")no-repeat fixed;
+}
+h1{
+	text-align:center;
+}
+table{
+	margin:0px auto;
+	border:3px solid black;
+	color:white;
+	width: 1340px;
+	word-wrap: break-word;
+	table-layout: fixed;
+	text-align: center;
+	background-color: rgba(0,0,0,0.7);
+}
+a:link{
+	text-decoration:none;
+	color: white;
+}
+.lido {
+	width: 60px;
+
+}
+.lido2 {
+	width: 60px;
+	text-align: right;
+}
+.excluir{
+	width: 80px;
+}
+a{
+	color: white;
+}
+.deus{
+	width: 120px;
+}
+.mensagem{
+	width: 500px;
+}

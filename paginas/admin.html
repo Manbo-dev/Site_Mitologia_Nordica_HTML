@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Valhalla</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../css/estilo.css">
+	<link rel="stylesheet" type="text/css" href="../css/admin.css">
+	<link rel="shortcut icon" href="../imagens/barbamisto.ico" />
+</head>
+<body>
+
+<header>
+	<div id="navegacao" >
+		<div id="titulo">
+			<a href="../index2.html"> Valhalla</a>
+			<img src="../imagens/logo.png" width="50px">
+		</div>
+
+		<nav id="menu">
+			<ol>
+				<a href="deuses.html"><li> deuses </li></a>
+				<a href="mitos.html"><li>mitos </li></a>
+				<a href="runas.html"><li>runas </li></a>
+				<a href="jogos.html"><li>jogos</li></a>
+				<a href="localizacao.html"><li>localização</li></a>
+				<a href="contato.html"><li>contato</li></a>
+			</ol>
+		</nav>	
+	</div>
+</header>
+
+<section>
+	<div id="interface">
+			<section id="unica"> 
+				<form method="POST" action="../php/admin.php">
+					<fieldset id="usuario">
+						<legend>Identificação do usuário</legend>
+						<p><label for="usuario">Nome:</label> 
+						<input type="text" id="usuario" name="usuario" size="50" maxlength="45" placeholder="Digite seu nome" /></p>
+						<p><label for="senha">Senha:</label> 
+						<input type="password" id="senha" name="senha" size="10" maxlength="10" /></p>
+					<input type="submit" value="Entrar" />
+					<input type="reset" value="Limpar" />
+				</form>
+			</section>
+
+	</div>
+</section>
+			
+<footer>
+	<div id="rodape">
+		<div id="img">
+			<a href="https://www.facebook.com/"><img src="../imagens/redes/face2.png"></a>
+			<a href="https://www.instagram.com/guilherme.manbo/"><img src="../imagens/redes/insta.png"></a>
+			<a href="https://twitter.com/manboloide"><img src="../imagens/redes/tt.png"></a>
+			<a href="../imagens/erro.jpg"><img src="../imagens/redes/whats.png"></a>
+		</div>
+
+		<H6 >© Copyright 2001-2019 valhalla.com.br - All Rights Reserved|Guilherme Dias Cardoso Silva</H6>
+	</div>
+</footer>
+
+</body>
+</html>

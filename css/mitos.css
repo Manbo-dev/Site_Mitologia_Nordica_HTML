@@ -1,0 +1,50 @@
+body {
+	
+	background:url("../imagens/fundored.jpg")no-repeat fixed;  
+	background-size:100%;
+}
+div#interface{
+	background-color: rgba(135,206,235,0.3);
+	width:1100px;
+	margin:0px auto;  
+	padding:10px;  
+	position:relative;
+	border:8px solid black;
+	border-radius: 15px;
+	top:50px;
+}
+div#navegacao{
+	background-color: Crimson;
+}
+
+div#interface div#titulo{
+	font-family: 'Alfa Slab One', cursive;
+	text-align: center;
+	font-size: 18px;
+	height:60px;
+	top: 0px;
+	letter-spacing: 20px;
+	text-transform:uppercase; 
+}
+
+div#interface img{
+	width:135px;
+	border-radius: 15px;
+	margin: 10px;
+}
+
+div#interface div#conteudo{
+	border: 3px solid black;
+	position: relative;
+	font-family: 'Quicksand', sans-serif;
+	color: white;
+}
+div#interface div#conteudo div#texto{
+	position: absolute;
+  	top: 0px;
+	left: 180px;
+ 	width: 910px;
+ 	height: 185px;
+
+}
+

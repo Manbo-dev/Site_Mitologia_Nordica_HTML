@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css?family=Prompt|Varela+Round&display=swap');
+@font-face {
+     font-family: 'runa';
+     src:url('fonts/ComicRunes.otf');
+}
+body {
+	
+	background:url("../imagens/fundo.jpg")no-repeat fixed;  
+	background-size:100%;
+}
+div#interface{
+	background-color:rgba(71,61,139,0.5);
+	width:1000px;
+	margin:0px auto;  
+	padding:10px;  
+	border-bottom:3px solid black;
+	position:relative;
+	border:8px solid gray;
+	border-radius: 15px;
+	height: 6700px;
+}
+div#interface div#titulo{
+	text-align: center;
+	color: white;
+	font-family: 'runa', cursive;
+	font-size: 55px;
+	letter-spacing: 25px;
+	border-bottom:  3px solid red;
+	height: 70px;
+}
+div#interface div#titulo p{
+	margin-top: 0px;
+	float: left;
+}
+div#interface div#titulo .la{
+	float: left;
+	width: 60px;
+	height: 60px;
+	margin-right: 50px;
+}
+div#interface div#titulo .lado{
+	right: 0px;
+	width: 60px;
+	height: 60px;
+	margin-right: 0px;
+}
+div#indice{
+	position: fixed;
+	border: 1px solid red;
+	width: 140px;
+	height: 600px;
+	z-index: 1;
+	background-color: #d2cbcb;
+ 	box-sizing: border-box;
+ 	font-family: 'Prompt', cursive;
+}
+div#indice ul{
+	margin: 0px;
+	padding: 20px;
+	line-height:15px;
+}
+
+div#indice a{
+	color: black;
+}
+
+div#interface section#esquerda{
+	display:block;
+	float:left;
+	width:710px;
+	height:700px;
+	padding-top:10px;
+	padding-left:10px;
+	padding-right:10px;
+	border-right:1px solid red;	
+}
+
+div#interface section#esquerda article.caixa{
+	font:10pt Arial, sans-serif;
+	text-align:justify;
+	box-sizing: border-box;
+}
+
+div#interface section#esquerda article.caixa h2.titulo{
+	background-color:#ccc9ca;
+	border-radius:10px;
+	padding:10px;
+	font-family: 'Varela Round', cursive;
+	font-weight:bold;
+	text-align: center;
+}
+div#interface section#esquerda article.caixa h1.titulo{
+	background-color:#ccc9ca;
+	border-radius:10px;
+	width: 400px;
+	margin: 0px auto;
+	padding:10px;
+	font-family: 'Varela Round', cursive;
+	font-weight:bold;
+	text-align: center;
+}
+
+div#interface section#esquerda article.caixa h2.descricao{
+	font: 15pt Arial, sans-serif;
+	color: white;
+	line-height:20px;
+	box-sizing: border-box;
+	font-family: 'Prompt', cursive;
+	
+}
+
+
+
+div#interface aside#direita{
+	display:block;
+	float:left;
+	width:250px;
+	height:600px;
+	padding-top:10px;
+	padding-left:10px;
+	border-bottom: 1px solid red; 
+
+}
+a:link{
+	text-decoration: none;
+}
+
+div#interface aside#direita div.areaimagem2{
+	border: 1px dashed rgba(0,0,0,0.1);
+	background-color: #d2cbcb;
+	margin-top: 8px;	
+}
+
+div#interface aside#direita div.areaimagem2 img{
+	width:50px;
+	float:left;
+	padding: 15px 5px 1px 2px;
+}
+
+div#interface aside#direita div.areaimagem2 p{
+	font-family: 'Varela Round', cursive;
+	text-align:left;
+	padding:10px;
+	color: black;
+	text-transform: uppercase;
+}

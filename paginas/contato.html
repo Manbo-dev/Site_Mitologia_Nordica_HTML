@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Valhalla</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../css/estilo.css">
+	<link rel="stylesheet" type="text/css" href="../css/contatos.css">
+	<link rel="shortcut icon" href="../imagens/barbamisto.ico" />
+</head>
+<body>
+
+<header>
+	<div id="navegacao" >
+		<div id="titulo">
+			<a href="../index2.html"> Valhalla</a>
+			<img src="../imagens/logo.png" width="50px">
+		</div>
+
+		<nav id="menu">
+			<ol>
+				<a href="deuses.html"><li> deuses </li></a>
+				<a href="mitos.html"><li>mitos </li></a>
+				<a href="runas.html"><li>runas </li></a>
+				<a href="jogos.html"><li>jogos</li></a>
+				<a href="localizacao.html"><li>localização</li></a>
+				<a href="contato.html"><li>contato</li></a>
+			</ol>
+		</nav>	
+	</div>
+</header>
+
+<section>
+	<div id="interface">
+		<section id="unica"> 
+			<form method="POST" action="../php/cadastro.php">
+				<fieldset id="usuario">
+					<legend>Identificação do usuário</legend>
+						<p><label for="nome">Nome:</label> 
+						<input type="text" id="nome" name="nome" size="50" maxlength="45" placeholder="Digite seu nome" /></p>
+
+						<p><label for="msg">Mensagem:</label> 
+						<textarea cols="45" rows="5" name="mensagem"></textarea>
+						</p>
+
+						<p><label for="email">Email:</label> 
+						<input type="email" id="email" name="email" placeholder="Digite seu email" /></p>
+
+						<fieldset id="sexo">
+							<legend>Deus favorito</legend>
+							<input type="radio" name="deus" value="Thor" /><label for="thor">Thor</label>
+							<input type="radio" name="deus" value="Odin" /><label for="odin">Odin</label>
+							<input type="radio" name="deus" value="Loki" /><label for="loki">Loki</label>
+							<input type="radio" name="deus" value="Freya" /><label for="freya">Freya</label>
+							<input type="radio" name="deus" value="Tyr" /><label for="tyr">Tyr</label>
+						</fieldset>
+
+						<p><input type="checkbox" name="span" id="span" checked /><label for="span">Gostaria de receber todas as novidades do nosso site?</label></p> 
+
+						<p><label for="grau">Qual seu nível de satifação com nosso site?</label><br>
+						Pouco:<input type="range" id="grau" name="grau" min="0" max="10" step="1" />Muito</p>
+							
+				</fieldset>
+					
+				<input type="submit" value="Enviar" />
+				<input type="reset" value="Limpar" />
+			</form>
+		</section>
+
+	</div>
+</section>
+			
+<footer>
+	<div id="rodape">
+		<div id="img">
+			<a href="https://www.facebook.com/"><img src="../imagens/redes/face2.png"></a>
+			<a href="https://www.instagram.com/guilherme.manbo/"><img src="../imagens/redes/insta.png"></a>
+			<a href="https://twitter.com/manboloide"><img src="../imagens/redes/tt.png"></a>
+			<a href="../imagens/erro.jpg"><img src="../imagens/redes/whats.png"></a>
+		</div>
+
+		<H6 >© Copyright 2001-2019 valhalla.com.br - All Rights Reserved|Guilherme Dias Cardoso Silva</H6>
+	</div>
+</footer>
+
+</body>
+</html>

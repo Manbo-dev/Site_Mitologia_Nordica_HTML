@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Prompt|Varela+Round&display=swap');
+body{
+	background:url("../imagens/runaswallpaper.jpg")no-repeat fixed; 
+	background-size:  100%;
+}
+div#interface{
+	background-color: rgba(30,144,255,0.3);
+	width:1200px;
+	margin:0px auto;  
+	padding:10px;  border-bottom:3px solid black;
+	position:relative;
+	border:8px solid gray;
+	border-radius: 15px;
+	top:50px;
+}
+div#navegacao{
+	background-color: DarkSlateBlue;
+}
+div#interface div#titulo{
+	font-family: 'Alfa Slab One', cursive;
+	text-align: center;
+	font-size: 18px;
+	height:60px;
+	top: 0px;
+	color: white;
+	letter-spacing: 40px;
+	border-bottom:1px dashed rgba(0,0,0,0.5);
+}
+div#interface section#unica{
+	width:100%;
+	height:1000px;	
+	border-bottom:1px dashed rgba(0,0,0,0.5);
+}
+div#interface section#unica div.divisaofigura{
+	width:25%;
+	float: left;
+
+}
+div#interface section#unica div.divisaofigura figure.fotolegenda{
+	border:3px solid gray;
+	position:relative;	
+	border-radius: 20px;
+
+}
+div#interface section#unica div.divisaofigura figure.fotolegenda img{
+	width:100%;
+	height: 250px;
+	border-radius: 20px;
+}
+div#interface section#unica div.divisaofigura figure.fotolegenda figcaption{
+	position:absolute;
+	top:0px;
+	background-color:rgba(0,0,0,0.4);
+	color:white;
+	width:100%;
+	height:100%;
+	padding:10px;border-radius: 20px;
+	box-sizing:border-box;
+	font-family: 'Varela Round', cursive;
+	opacity:0;
+	transition: opacity 0.1s;	
+	border-radius: 20px;
+}
+div#interface section#unica div.divisaofigura figure.fotolegenda figcaption:hover{
+	opacity:1;
+}
+div#rodape h6{
+	color: white;
+	text-align: center;
+	position: relative;
+	bottom: 0px;
+}
+div#interface div#runas{
+	font-size: 20px;
+	color: white;
+	font-family: 'Prompt', cursive;
+}

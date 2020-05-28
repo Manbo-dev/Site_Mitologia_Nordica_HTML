@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css?family=Prompt|Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap');
+body{
+	background:url("../imagens/jogos/fundo.jpg")no-repeat fixed; 
+	background-size: 100%;
+}
+div#navegacao{
+	background-color: SandyBrown;
+}
+div#interface{
+	background-color: rgba(79,79,79,0.6);
+	width:1100px;
+	margin:0px auto;  
+	padding:10px;  border-bottom:3px solid black;
+	position:relative;
+	border:8px solid black;
+	border-radius: 15px;
+	top:50px;
+}
+
+div#titulo2{
+	width: 100%;
+	height: 100px;font-family: 'Alfa Slab One', cursive;letter-spacing: 3px;
+	position: absolute;
+	margin: 0px;
+	padding: 0PX;
+	left: 0PX;
+	border-bottom:1px dashed black;
+}
+div#titulo2 h1{
+	text-align: center;
+}
+div#gif1 img{
+	position: absolute;
+	transform: scaleX(-1);
+
+}
+div#gif2 img{
+	position: absolute;
+	right: 25px;
+}
+
+div#suprema{
+
+	position: relative;
+	height: 1500px;
+	width: 95%;
+	top: 100px;
+	margin:0px auto; 
+
+}
+div#suprema div{
+	border: 3px solid black;
+	height: 400px;
+	width: 400px;
+	float: left;
+	margin-left: 45px;
+	margin-right: 45px;
+	margin-top: 50px;
+	border-radius: 50px 0px 50px 0px;
+	background: black;
+	color: white;
+}
+div#suprema div p{
+	font-family: 'Open Sans Condensed', cursive;
+	font-size: 16px;
+	
+}
+div#suprema div h1{
+	font-family: 'Prompt', cursive;
+}
+div#suprema img{
+	border-radius: 50px 0px 50px 0px;
+	position: absolute;
+	top: 53px;
+}
+div#suprema div#jogo2 img{
+	border-radius: 50px 0px 50px 0px;
+	position: absolute;
+	top: 510px;
+}
+div#suprema div#jogo3 img{
+	border-radius: 50px 0px 50px 0px;
+	position: absolute;
+	top: 965px;
+}
+div#suprema  img:hover{
+	padding-top:210px;
+	transition: transform 2s;
+	z-index: 1;
+}
+div#suprema  h1, p{
+	margin-left: 20px;
+	margin-top: 2px; 
+}

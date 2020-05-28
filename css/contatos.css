@@ -1,0 +1,20 @@
+body{
+
+	background:url("../imagens/admin.jpg")no-repeat fixed; 
+	background-size: 100%;
+}
+
+div#interface{
+	background-color: rgba(0,0,0,0.8);
+	width:500px;
+	margin:0px auto;  
+	padding:10px;  
+	position:relative;
+	border:8px solid gray;
+	border-radius: 15px;
+	top:50px;
+	color: white;
+}
+div#rodape h6{
+	margin-top: 70px;r
+}

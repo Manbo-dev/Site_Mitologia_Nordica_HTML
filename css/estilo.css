@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand:300&display=swap');
+@font-face {
+     font-family: 'runa';
+     src:url('../fonts/ComicRunes.otf');
+}
+body {
+	background-color: black;
+	background-size:100%;
+}
+div#navegacao{
+	position: fixed;
+	width: 100%;border-bottom:5px solid black;
+	left: 0px;
+	top: 0px;
+	height: 61px;
+	z-index:1; 
+	background-color: DarkGray;
+}
+div#navegacao div#titulo{
+	font-family: 'runa', cursive;
+	margin-left: 10px;
+	margin-top: 0px;
+	font-size: 33pt;
+	letter-spacing: 10px;
+
+}
+
+div#navegacao div#titulo a{
+	text-decoration: none;
+	color: black;
+}
+div#navegacao div#titulo img{
+	position: relative;
+	top: 2px;
+}
+
+
+div#navegacao nav#menu a{ 
+color: black;
+}
+
+div#navegacao nav#menu{
+	font-weight:bold;
+	font-family: 'Quicksand', sans-serif;
+	font-size:12pt;
+}
+div#navegacao nav#menu ol{
+	text-transform:uppercase;     
+	position:fixed;
+	right: 0px;
+	top: 0px;
+	margin-right: 10px;
+	margin-top: 0px;
+}
+div#navegacao nav#menu ol li{
+	display:inline-block;
+	padding: 17px;
+	margin:5px;
+	transition: background-color 0.1s;
+}
+
+div#navegacao nav#menu ol li:hover{
+	 border: 1px solid gray;
+}
+
+div#navegacao nav#menu ol li a{
+	color:black;
+	text-decoration:none;
+}
+div#rodape h6{
+	color: white;
+	text-align: center;
+	position: relative;
+	bottom: 0px;
+}
+
+div#rodape div#img{
+	width: 220px;
+	margin: 0px auto;
+	margin-top: 60px;
+}
+div#rodape div#img img{
+	margin: 10px;
+	width: 30px;
+	height: 30px;
+}
